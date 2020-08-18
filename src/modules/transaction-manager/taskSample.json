@@ -1,0 +1,16 @@
+[
+  [
+    { "type": "insert", "rowidx": 0 },
+    { "type": "insert", "rowidx": 0 },
+    { "type": "insert", "rowidx": 0 }
+  ],
+  [
+    { "rowidx": 0, "data": { "column-name-01": "column value", "column-name-02": "column value" } },
+    { "rowidx": 0, "data": { "column-name": "column value" } },
+    { "rowidx": 0, "data": { "column-name": "column value" } }
+  ],
+  {
+    "type": "delete",
+    "task": [{ "rowidx": 0 }, { "rowidx": 0 }, { "rowidx": 0 }]
+  }
+]
