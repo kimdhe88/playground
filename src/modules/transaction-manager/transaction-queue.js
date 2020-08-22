@@ -56,7 +56,9 @@ class TransactionQueue {
 
   commit() {}
 
-  rollback() {}
+  undo() {}
+
+  redo() {}
 
   refresh() {
     // 전체 queue 삭제, insert 된 rows에 대해 삭제

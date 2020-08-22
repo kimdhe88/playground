@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import arrayUtility from "./modules/array-utility";
 import SelectionAreaManager from "./modules/selection-area-manager";
+import { StaticClass, ENUM } from "./modules/static-test";
 
 let data = new Array();
 data = JSON.parse(fs.readFileSync(path.join(__dirname, "../", "data", "data.json")));
@@ -40,4 +41,12 @@ async function SelectionAreaManagerTest() {
   }
 }
 
-SelectionAreaManagerTest();
+// SelectionAreaManagerTest();
+
+let arr = new Array();
+
+arr[10] = "test";
+
+for (let idx in arr) console.log(arr[idx]);
+
+console.log(arr.length);
